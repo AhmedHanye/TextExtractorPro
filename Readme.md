@@ -52,12 +52,25 @@ Run the script from the command line:
 python text_extraction.py
 ```
 
-## Example
-
-```
-python TextExtractorPro.py
-Enter the path to file: /path/to/your/file.pdf
-Enter the path to the output text file: output.txt
-Enter the File Type (pdf or img): pdf
-
-```
+## Examples
+1. images:
+   
+    ```
+    python TextExtractorPro.py
+    Enter the path to File: tests/test_image.png
+    Enter the path to the output text file: image.txt
+    Enter the File Type (pdf or img): img
+    INFO:__main__:Processing page 1 of 1
+    
+    ```
+2. pdf:
+   
+   ```
+   python TextExtractorPro.py
+   Enter the path to File: tests/test_pdf.pdf
+    Enter the path to the output text file: pdf.txt
+    Enter the File Type (pdf or img): pdf
+    INFO:__main__:Total 1 pages found.
+    INFO:__main__:Processing page 1 of 1
+   ```
+   
