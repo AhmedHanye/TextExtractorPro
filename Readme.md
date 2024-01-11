@@ -30,14 +30,13 @@ This tool allows you to extract text from PDF and image files using OCR (Optical
     ```
 4. Install Poppler 
     ```bash
-    # this is for linux
+    # linux:
     sudo apt-get update
     sudo apt-get install poppler-utils
     ```
     ```bash
     # macOS (using Homebrew):
-    sudo apt-get update
-    sudo apt-get install poppler-utils
+    brew install poppler
     ```
 5. Set the path to the Tesseract executable in the script (if not set already) :
 
@@ -56,7 +55,7 @@ python text_extraction.py
 ## Example
 
 ```
-python text_extraction.py
+python TextExtractorPro.py
 Enter the path to file: /path/to/your/file.pdf
 Enter the path to the output text file: output.txt
 Enter the File Type (pdf or img): pdf
