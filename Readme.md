@@ -20,7 +20,7 @@ This tool allows you to extract text from PDF and image files using OCR (Optical
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/text-extraction-tool.git
+    git clone https://github.com/AhmedHanye/TextExtractorPro.git
     ```
 2. Install Tesseract from [Tesseract documentation](https://tesseract-ocr.github.io/tessdoc/Installation.html)
 3. Install dependencies:
