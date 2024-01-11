@@ -22,13 +22,13 @@ This tool allows you to extract text from PDF and image files using OCR (Optical
     ```bash
     git clone https://github.com/AhmedHanye/TextExtractorPro.git
     ```
-2. Install Tesseract from [Tesseract documentation](https://tesseract-ocr.github.io/tessdoc/Installation.html)
+2. Install Tesseract from [Tesseract documentation](https://tesseract-ocr.github.io/tessdoc/Installation.html).
 3. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
-4. Install Poppler 
+4. Install Poppler for handling PDFs:
     ```bash
     # linux:
     sudo apt-get update
