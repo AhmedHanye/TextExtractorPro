@@ -61,13 +61,12 @@ python text_extraction.py
     Enter the path to the output text file: image.txt
     Enter the File Type (pdf or img): img
     INFO:__main__:Processing page 1 of 1
-    
     ```
 2. pdf:
    
    ```
-   python TextExtractorPro.py
-   Enter the path to File: tests/test_pdf.pdf
+    python TextExtractorPro.py
+    Enter the path to File: tests/test_pdf.pdf
     Enter the path to the output text file: pdf.txt
     Enter the File Type (pdf or img): pdf
     INFO:__main__:Total 1 pages found.
